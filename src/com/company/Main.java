@@ -5,12 +5,14 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	// Quick challenge
+
         Scanner scan = new Scanner(System.in);
         String color="";
         String pastTenseVerb ="";
         String adjective= "";
         String noun= "";
+
 
         System.out.println("Please enter a color");
         color= scan.nextLine();
